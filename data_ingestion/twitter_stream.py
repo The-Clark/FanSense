@@ -38,7 +38,7 @@ class TwitterStream:
         Args:
             bearer_token: Twitter API Bearer Token (will use env var TWITTER_BEARER_TOKEN if None)
         """
-        self.bearer_token = bearer_token or os.environ.get("TWITTER_BEARER_TOKEN", "AAAAAAAAAAAAAAAAAAAAAOaOAAEAAAAAtGdIlI0cPCSD8bcAwsnc1UeZNhU%3D6ciRXjE3yrZrPoViFLO6nBo4Y12xvtfqhChZysca5I2HDVaeH5")
+        self.bearer_token = bearer_token or os.environ.get("TWITTER_BEARER_TOKEN", "your_bearer_token")
         if not self.bearer_token:
             raise ValueError("Twitter Bearer Token is required. Set it as an argument or as TWITTER_BEARER_TOKEN environment variable.")
         
