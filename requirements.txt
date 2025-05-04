@@ -1,0 +1,30 @@
+# FanSense - Requirements
+# Core dependencies
+numpy==1.24.3
+pandas==2.0.2
+psycopg2-binary==2.9.6
+python-dotenv==1.0.0
+requests==2.31.0
+
+# NLP and Sentiment Analysis
+nltk==3.8.1
+# Simplified NLP - using only VADER for now
+# transformers==4.30.2
+# torch==2.0.1
+
+# Geolocation
+geopy==2.3.0
+
+# Visualization
+streamlit>=0.89.0,<1.0.0
+plotly==5.15.0
+pydeck==0.8.0
+
+# Data Processing
+scikit-learn==1.2.2
+
+# Testing
+pytest==7.3.1
+
+# Deployment
+gunicorn==20.1.0
